@@ -1,6 +1,22 @@
 'use strict';
 
-angular.module('linagora.esn.group')
+angular.module('linagora.esn.group', [
+  'op.dynamicDirective',
+  'restangular',
+  'esn.router',
+  'esn.member',
+  'esn.http',
+  'esn.infinite-list',
+  'esn.core',
+  'esn.user',
+  'esn.async-action',
+  'esn.session',
+  'esn.attendee',
+  'esn.scroll',
+  'esn.ui',
+  'esn.i18n',
+  'esn.header'
+])
 
   .constant('GROUP_OBJECT_TYPE', 'group')
 
